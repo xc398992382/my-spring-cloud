@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: eureka-machine-client
+    jackson:
+            time-zone: GMT+8
+            date-format: yyyy-MM-dd HH:mm:ss
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://10.213.3.154:8080/eureka/
